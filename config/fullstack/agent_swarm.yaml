@@ -1,0 +1,23 @@
+name: fullstack_swarm
+description: A swarm for fullstack development with Angular and .NET
+task_type: fullstack_development
+agents:
+  - role: frontend_developer
+    type: angular_expert
+    config_path: agents.json
+  - role: backend_developer
+    type: dotnet_expert
+    config_path: agents.json
+  - role: architect
+    type: system_designer
+    config_path: agents.json
+edges:
+  - from: architect
+    to: frontend_developer
+    operation: design_to_frontend
+  - from: architect
+    to: backend_developer
+    operation: design_to_backend
+  - from: frontend_developer
+    to: backend_developer
+    operation: frontend_backend_sync

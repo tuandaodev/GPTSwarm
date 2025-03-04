@@ -1,0 +1,41 @@
+{
+  "angular_expert": {
+    "name": "Angular Expert",
+    "description": "Frontend developer specialized in Angular and TypeScript",
+    "capabilities": [
+      "Angular development",
+      "TypeScript programming",
+      "Frontend architecture",
+      "UI/UX implementation",
+      "Component design",
+      "State management",
+      "API integration"
+    ]
+  },
+  "dotnet_expert": {
+    "name": ".NET Expert",
+    "description": "Backend developer specialized in .NET Core and C#",
+    "capabilities": [
+      ".NET Core development",
+      "C# programming",
+      "REST API design",
+      "Database management",
+      "Authentication/Authorization",
+      "Microservices architecture",
+      "Performance optimization"
+    ]
+  },
+  "system_designer": {
+    "name": "System Architect",
+    "description": "Technical architect specializing in full-stack system design",
+    "capabilities": [
+      "System architecture",
+      "Technical planning",
+      "Integration patterns",
+      "Security design",
+      "Scalability planning",
+      "Development workflows",
+      "Best practices enforcement"
+    ]
+  }
+}
